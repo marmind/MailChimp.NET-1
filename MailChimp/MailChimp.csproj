@@ -30,9 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp">
       <HintPath>..\packages\RestSharp.105.1.0\lib\net45\RestSharp.dll</HintPath>
@@ -50,13 +50,13 @@
   <ItemGroup>
     <Compile Include="DTOs\CampaignDefaults.cs" />
     <Compile Include="DTOs\Contact.cs" />
+    <Compile Include="DTOs\TemplatesInstance.cs" />
+    <Compile Include="DTOs\TemplatesCollection.cs" />
     <Compile Include="DTOs\Location.cs" />
     <Compile Include="DTOs\MergeFields.cs" />
     <Compile Include="DTOs\MembersInstance.cs" />
     <Compile Include="DTOs\MergeFieldsInstance.cs" />
     <Compile Include="DTOs\SubscriberStats.cs" />
-    <Compile Include="DTOs\TemplatesCollection.cs" />
-    <Compile Include="DTOs\TemplatesInstance.cs" />
     <Compile Include="Error\Error.cs" />
     <Compile Include="DTOs\Links.cs" />
     <Compile Include="DTOs\ListsInstance.cs" />
