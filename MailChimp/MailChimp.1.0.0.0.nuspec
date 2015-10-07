@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>MailChimp.NET-APIv3</id>
+        <version>1.0.0.0</version>
+        <title>MailChimp.NET-APIv3</title>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <releaseNotes>1.0.0.0: Initial</releaseNotes>
+        <description>MailChimp.NET-APIv3</description>
+        <authors>https://github.com/morarsebastian, https://github.com/marmind</authors>
+    </metadata>
+    <files>
+        <file src="bin\Release\MailChimp.dll" target="lib\net35\MailChimp.dll" />
+        <file src="bin\Release\MailChimp.pdb" target="lib\net35\MailChimp.pdb" />
+    </files>
+</package>
